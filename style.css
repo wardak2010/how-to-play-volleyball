@@ -23,21 +23,58 @@ ul {
   }
  
   .active {
-    background-color: #da8bd6;
+    background-color: rgb(161, 156, 156);
+  }
+
+  body {
+    background-color: grey;
   }
 
   .container {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr 6fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 2fr 2fr 3fr 1fr;
   }
 
   .header {
     grid-column: 1/3;
     grid-row: 1/2;
+    font-size: 35px;
+    text-align: center;
   }
 
   .main {
-    grid-column: 
+    grid-column: 1/2;
+    grid-row: 2/5
+  }
+
+  .box1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+  }
+
+  .box2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .box3 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+
+  .summary {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+
+  .footer {
+    grid-column: 1/3;
+    grid-row: 6/7;
+  }
+  
+  div {
+    border: 1px solid black
   }
   
